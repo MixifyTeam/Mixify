@@ -109,7 +109,7 @@ Discover more on <a href="https://mixify.co.in/">mixify.co.in</a>.
 <a href="https://github.com/MixifyTeam/Mixify/releases/latest">
   <img src="https://img.shields.io/badge/Download-Latest_APK-238636?style=for-the-badge&logo=android&logoColor=white&labelColor=0d1117" alt="Download latest APK" />
 </a>
-
+<a href="https://apkpure.com/p/com.mixify.app"><img src="https://img.shields.io/badge/Download-APKPure-24CD77?style=for-the-badge&logo=android&logoColor=white&labelColor=0d1117" alt="Download Mixify on APKPure" /></a>
 <br /><br />
 
 <a href="https://mixify.co.in/">Official Website</a> ·
