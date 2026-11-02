@@ -16,7 +16,7 @@
 [![Latest Release](https://img.shields.io/github/v/release/scisims12/Mixify?style=for-the-badge&labelColor=0d1117)](https://github.com/scisims12/Mixify/releases/latest)
 [![Total Downloads](https://img.shields.io/github/downloads/scisims12/Mixify/total?style=for-the-badge&label=Total%20Downloads&color=8B5CF6&labelColor=0d1117)](https://github.com/scisims12/Mixify/releases)
 [![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge&labelColor=0d1117)](LICENSE)
-![Listening Now](https://img.shields.io/badge/Listening%20Now-Not%20available-FF4B6E?style=for-the-badge&labelColor=0d1117)
+![Listening Now](https://mixify-live-counter.priyanshusharma3674.workers.dev/api/stats/live/badge.svg)
 
 <br/>
 
