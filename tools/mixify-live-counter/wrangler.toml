@@ -1,0 +1,12 @@
+name = "mixify-live-counter"
+main = "src/index.ts"
+compatibility_date = "2024-03-20"
+compatibility_flags = ["nodejs_compat"]
+
+[[durable_objects.bindings]]
+name = "COUNTER_DO"
+class_name = "CounterDO"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["CounterDO"]
