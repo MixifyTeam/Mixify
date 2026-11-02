@@ -1,5 +1,7 @@
 <div align="center">
 
+<a href="https://mixify.co.in/"><img src="assets/hero.png" width="100%" alt="Mixify — Listen. Discover. Enjoy. — new Home screen" /></a>
+
 # Mixify
 
 A modern music experience for Android.
