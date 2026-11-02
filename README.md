@@ -1,414 +1,198 @@
 <div align="center">
 
-<a href="https://mixify.co.in/">
-  <img src="assets/hero.png" width="100%" alt="Mixify — Listen. Discover. Enjoy." />
-</a>
+<a href="https://mixify.co.in/"><img src="assets/hero.png" width="100%" alt="Mixify — Listen. Discover. Enjoy. — new Home screen" /></a>
 
-<h1>Mixify</h1>
+# Mixify
 
-<p>A modern music experience for Android.</p>
+A modern music experience for Android.
 
-<a href="https://github.com/MixifyTeam/Mixify/releases/latest">
-  <img src="https://img.shields.io/github/v/release/MixifyTeam/Mixify?style=for-the-badge&labelColor=0d1117" alt="Latest Release" />
-</a>
-<a href="https://github.com/MixifyTeam/Mixify/releases">
-  <img src="https://img.shields.io/github/downloads/MixifyTeam/Mixify/total?style=for-the-badge&color=8B5CF6&labelColor=0d1117" alt="Total Downloads" />
-</a>
-<a href="LICENSE">
-  <img src="https://img.shields.io/badge/license-GPL--3.0-007ec6?style=for-the-badge&labelColor=0d1117" alt="License GPL-3.0" />
-</a>
-<img src="https://mixify-live-counter.priyanshusharma3674.workers.dev/api/stats/live/badge.svg?v=2" alt="Listening Now" />
+[![Release](https://img.shields.io/github/v/release/MixifyTeam/Mixify?style=for-the-badge&labelColor=0d1117)](https://github.com/MixifyTeam/Mixify/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/MixifyTeam/Mixify/total?style=for-the-badge&color=8B5CF6&labelColor=0d1117)](https://github.com/MixifyTeam/Mixify/releases)
+[![License](https://img.shields.io/badge/license-GPL--3.0-007ec6?style=for-the-badge&labelColor=0d1117)](LICENSE)
+![Listening Now](https://mixify-live-counter.priyanshusharma3674.workers.dev/api/stats/live/badge.svg?v=2)
 
-<br /><br />
+**[Download APK](https://github.com/MixifyTeam/Mixify/releases/latest) · [Website & Features](https://mixify.co.in/) · [Telegram](https://t.me/mixify20)**
 
-<strong>
-  <a href="https://github.com/MixifyTeam/Mixify/releases/latest">Download APK</a> ·
-  <a href="https://mixify.co.in/">Website &amp; Features</a> ·
-  <a href="https://t.me/mixify20">Telegram</a>
-</strong>
+</div>
 
-<br /><br />
 
-<a href="#about-mixify">About</a> ·
-<a href="#screenshots">Screenshots</a> ·
-<a href="#download">Download</a> ·
-<a href="#community">Community</a> ·
-<a href="#support">Support</a> ·
-<a href="#credits">Credits</a> ·
-<a href="#security">Security</a>
+**[About](#about-mixify) · [Screenshots](#screenshots) · [Download](#download--installation) · [Community](#community) · [Support](#support--sponsor) · [Credits](#credits--project-origins) · [Security](#security)**
 
-<hr />
+## About Mixify
 
-<h2 id="about-mixify">About Mixify</h2>
+Mixify is a free, open-source Android music app maintained by Priyanshu Sharma. Version 1.0.7 brings Mixify's identity to a refreshed interface based on BitChord, with a new Home presentation and updated app information and sharing experience.
 
-<p>
-Mixify is a free, open-source Android music app maintained by
-<a href="https://github.com/scisims12">Priyanshu Sharma</a>.
-</p>
+This README introduces the project, shows the current UI, and brings together downloads, support and contributor information. Visit [the official website](https://mixify.co.in/) for detailed features and updates.
 
-<p>
-Version 1.0.7 brings Mixify's identity to a refreshed interface based on BitChord,
-with a new Home presentation and updated app information and sharing experience.
-</p>
+> The screenshots below preview Mixify 1.0.7. The release badge and download links show the latest published release, which may be an earlier version until 1.0.7 is published.
 
-<p>
-Explore the app below, or visit
-<a href="https://mixify.co.in/">the official website</a>
-for detailed features and updates.
-</p>
+## Screenshots
 
-<p>
-<em>
-The screenshots preview Mixify 1.0.7. Download links and the release badge
-show the latest published version, which may be an earlier release
-until 1.0.7 is published.
-</em>
-</p>
+Mixify 1.0.7 preview.
 
-<hr />
-
-<h2 id="screenshots">Screenshots</h2>
-
-<p>Mixify 1.0.7 preview</p>
-
-<table align="center">
-  <tr>
-    <th align="center">Home</th>
-    <th align="center">Player</th>
-    <th align="center">Lyrics</th>
-    <th align="center">Explore</th>
-  </tr>
-  <tr>
-    <td align="center"><img src="assets/screenshots/home.jpg" width="210" alt="Mixify Home" /></td>
-    <td align="center"><img src="assets/screenshots/player.jpg" width="210" alt="Mixify Player" /></td>
-    <td align="center"><img src="assets/screenshots/lyrics.jpg" width="210" alt="Mixify Lyrics" /></td>
-    <td align="center"><img src="assets/screenshots/explore.jpg" width="210" alt="Mixify Explore" /></td>
-  </tr>
-  <tr>
-    <th align="center">Library</th>
-    <th align="center">Listen Together</th>
-    <th align="center">Video Player</th>
-    <th align="center">Playlist</th>
-  </tr>
-  <tr>
-    <td align="center"><img src="assets/screenshots/library.jpg" width="210" alt="Mixify Library" /></td>
-    <td align="center"><img src="assets/screenshots/listen-together.jpg" width="210" alt="Mixify Listen Together" /></td>
-    <td align="center"><img src="assets/screenshots/video-player.jpg" width="210" alt="Mixify Video Player" /></td>
-    <td align="center"><img src="assets/screenshots/playlist.jpg" width="210" alt="Mixify Playlist" /></td>
-  </tr>
+<table>
+<tr>
+<th>Home</th>
+<th>Player</th>
+<th>Lyrics</th>
+<th>Explore</th>
+</tr>
+<tr>
+<td><img src="assets/screenshots/home.jpg" width="210" alt="Mixify Home" /></td>
+<td><img src="assets/screenshots/player.jpg" width="210" alt="Mixify Player" /></td>
+<td><img src="assets/screenshots/lyrics.jpg" width="210" alt="Mixify Lyrics" /></td>
+<td><img src="assets/screenshots/explore.jpg" width="210" alt="Mixify Explore" /></td>
+</tr>
+<tr>
+<th>Library</th>
+<th>Listen Together</th>
+<th>Video Player</th>
+<th>Playlist</th>
+</tr>
+<tr>
+<td><img src="assets/screenshots/library.jpg" width="210" alt="Mixify Library" /></td>
+<td><img src="assets/screenshots/listen-together.jpg" width="210" alt="Mixify Listen Together" /></td>
+<td><img src="assets/screenshots/video-player.jpg" width="210" alt="Mixify Video Player" /></td>
+<td><img src="assets/screenshots/playlist.jpg" width="210" alt="Mixify Playlist" /></td>
+</tr>
 </table>
 
-<p>
-Discover more on <a href="https://mixify.co.in/">mixify.co.in</a>.
-</p>
+Explore the full feature list and more screenshots on [mixify.co.in](https://mixify.co.in/).
 
-<hr />
+## Download & Installation
 
-<h2 id="download">Download &amp; Installation</h2>
+**[Download from GitHub Releases](https://github.com/MixifyTeam/Mixify/releases/latest)** · **[Official website](https://mixify.co.in/)** · [APKPure listing](https://apkpure.com/p/com.mixify.app)
 
-<a href="https://github.com/MixifyTeam/Mixify/releases/latest">
-  <img src="https://img.shields.io/badge/Download-Latest_APK-238636?style=for-the-badge&logo=android&logoColor=white&labelColor=0d1117" alt="Download latest APK" />
-</a>
-<a href="https://apkpure.com/p/com.mixify.app"><img src="https://img.shields.io/badge/Download-APKPure-24CD77?style=for-the-badge&logo=android&logoColor=white&labelColor=0d1117" alt="Download Mixify on APKPure" /></a>
-<br /><br />
+1. Open the official website or GitHub release page.
+2. Read the release notes and choose the phone APK that matches your device, or the universal APK when available.
+3. Open the downloaded APK and allow installation from that source if Android asks.
+4. Install Mixify and start listening.
 
-<a href="https://mixify.co.in/">Official Website</a> ·
-<a href="https://github.com/MixifyTeam/Mixify/releases/latest">GitHub Releases</a> ·
-<a href="https://apkpure.com/p/com.mixify.app">APKPure</a>
+For an update, install over your existing app using a compatible APK signed with the same key. Avoid uninstalling first if you want to keep your local app data. Availability on third-party stores can differ from GitHub.
 
-<h3>Getting Started</h3>
+[View all releases](https://github.com/MixifyTeam/Mixify/releases)
 
-<p>
-Open the official website or GitHub release page.<br />
-Read the release notes and choose the phone APK for your device,
-or the universal APK when available.<br />
-Open the downloaded APK and allow installation from that source if Android asks.<br />
-Install Mixify and start listening.
-</p>
+## Community
 
-<h3>Updating Mixify</h3>
+Join the community for release announcements, discussion and feedback.
 
-<p>
-Install the compatible update APK over your existing app.<br />
-Updates must use the same application ID and signing key.<br />
-Avoid uninstalling first if you want to preserve your local app data.
-</p>
+[![Telegram](https://img.shields.io/badge/Telegram-Join%20Mixify-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0d1117)](https://t.me/mixify20)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Mixify-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=0d1117)](https://discord.gg/qtVYB2wyH3)
 
-<p>
-Availability on third-party stores can differ from GitHub.
-</p>
+## Support & Sponsor
 
-<a href="https://github.com/MixifyTeam/Mixify/releases">View all releases</a>
+Mixify is free and open-source. If you enjoy using it, you can support development by starring the repository, sharing the app, reporting bugs, improving documentation or contributing code.
 
-<hr />
+Sponsorship helps support ongoing maintenance, fixes and development.
 
-<h2 id="community">Community</h2>
+[![Sponsor Mixify](https://img.shields.io/badge/Sponsor-Mixify-ea4aaa?style=for-the-badge&logo=githubsponsors&labelColor=0d1117)](https://github.com/sponsors/scisims12)
+[![Star Mixify](https://img.shields.io/github/stars/MixifyTeam/Mixify?style=for-the-badge&logo=github&label=Star%20Mixify&labelColor=0d1117)](https://github.com/MixifyTeam/Mixify)
 
-<p>
-Join the Mixify community for release announcements, discussions and feedback.
-</p>
+Thank you to everyone who supports the project.
 
-<a href="https://t.me/mixify20">
-  <img src="https://img.shields.io/badge/Telegram-Join_Mixify-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0d1117" alt="Join Mixify on Telegram" />
-</a>
-<a href="https://discord.gg/qtVYB2wyH3">
-  <img src="https://img.shields.io/badge/Discord-Join_Mixify-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=0d1117" alt="Join Mixify on Discord" />
-</a>
+## Bug Reports & Suggestions
 
-<hr />
+[Report a bug or suggest an improvement](https://github.com/MixifyTeam/Mixify/issues). For a bug report, include:
 
-<h2 id="support">Support &amp; Sponsor</h2>
+- Mixify version and build type.
+- Android version and device model.
+- What happened and steps to reproduce it.
+- A screenshot or screen recording, when useful.
+- Relevant logs with private information removed.
 
-<p>
-Mixify is free and open-source.<br />
-Your support helps with ongoing maintenance, fixes and development.
-</p>
+## Contributing
 
-<p>
-Star the repository · Share Mixify · Report bugs<br />
-Improve documentation · Suggest improvements · Contribute code
-</p>
+Contributions are welcome. Check existing issues before starting, keep changes focused, and test the affected behavior before opening a pull request.
 
-<a href="https://github.com/sponsors/scisims12">
-  <img src="https://img.shields.io/badge/Sponsor-Mixify-ea4aaa?style=for-the-badge&logo=githubsponsors&labelColor=0d1117" alt="Sponsor Mixify" />
-</a>
-<a href="https://github.com/MixifyTeam/Mixify">
-  <img src="https://img.shields.io/github/stars/MixifyTeam/Mixify?style=for-the-badge&logo=github&label=Star%20Mixify&labelColor=0d1117" alt="Star Mixify" />
-</a>
+1. Fork the repository and create a branch.
+2. Make and test your changes.
+3. Open a pull request explaining the change and how you checked it.
 
-<p>Thank you to everyone who supports the project.</p>
+### Building from source
 
-<hr />
+Clone the project and open it in Android Studio:
 
-<h2 id="feedback">Bug Reports &amp; Suggestions</h2>
+```bash
+git clone https://github.com/MixifyTeam/Mixify.git
+cd Mixify
+```
 
-<p>
-Found a problem or have an idea?<br />
-<a href="https://github.com/MixifyTeam/Mixify/issues">Open an issue</a>.
-</p>
+Use the JDK and Android SDK required by the project's Gradle configuration. Allow Gradle to sync, select the intended build variant, and run on a device or emulator. Keep machine-specific configuration and credentials local.
 
-<p>
-For bug reports, please include:<br /><br />
-Mixify version and build type<br />
-Android version and device model<br />
-A description and steps to reproduce<br />
-A screenshot or recording, when useful<br />
-Relevant logs with private information removed
-</p>
+### Contributors
 
-<hr />
-
-<h2 id="contributing">Contributing</h2>
-
-<p>
-Contributions are welcome.<br />
-Check existing issues, keep changes focused, and test the affected behavior.
-</p>
-
-<p>
-Fork the repository and create a branch.<br />
-Make and test your changes.<br />
-Open a pull request explaining the change and how you checked it.
-</p>
-
-<h3>Building from Source</h3>
-
-<p>Clone the repository and open it in Android Studio.</p>
-
-<p>
-<code>git clone https://github.com/MixifyTeam/Mixify.git</code><br />
-<code>cd Mixify</code>
-</p>
-
-<p>
-Use the JDK and Android SDK required by the project's Gradle configuration.<br />
-Allow Gradle to sync, select the intended build variant,
-and run on a device or emulator.<br />
-Keep machine-specific configuration and credentials local.
-</p>
-
-<h3>Contributors</h3>
-
-<p>
-Thank you to everyone contributing code, documentation, testing and feedback.
-</p>
+Thanks to everyone who contributes code, documentation, testing and feedback.
 
 <a href="https://github.com/MixifyTeam/Mixify/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=MixifyTeam/Mixify" alt="Mixify contributors" />
 </a>
 
-<hr />
+## Credits & Project Origins
 
-<h2 id="credits">Credits &amp; Project Origins</h2>
+**Mixify 1.0.7 is based on BitChord 1.9 by [kushagrasinghx](https://github.com/kushagrasinghx).** Mixify's branding, configuration and subsequent changes are maintained by [Priyanshu Sharma](https://github.com/scisims12).
 
-<p>
-<strong>
-Mixify 1.0.7 is based on BitChord 1.9 by
-<a href="https://github.com/kushagrasinghx">kushagrasinghx</a>.
-</strong>
-</p>
+Mixify builds on existing open-source work. It does not claim that all of its code, design or functionality was created from scratch. Original authorship, copyright notices and applicable licenses must be preserved.
 
-<p>
-Mixify's branding, configuration and subsequent changes are maintained by
-<a href="https://github.com/scisims12">Priyanshu Sharma</a>.
-</p>
+### Special Thanks
 
-<p>
-Mixify builds on existing open-source work.<br />
-Original authorship, copyright notices and applicable licenses are preserved.
-</p>
+| Project | Credit |
+| --- | --- |
+| BitChord | kushagrasinghx — the base for this version's interface and code |
+| [InnerTune](https://github.com/z-huang/InnerTune) | Zion Huang, Malopieds and contributors |
+| [OuterTune](https://github.com/DD3Boh/OuterTune) | Davide Garberi, Michael Zh and contributors |
+| [ViMusic](https://github.com/vfsfitvnm/ViMusic) | vfsfitvnm and contributors — an inspiration acknowledged by InnerTune |
+| [Better Lyrics](https://better-lyrics.boidu.dev) | Lyrics project acknowledged in Mixify's earlier documentation |
 
-<h3>Special Thanks</h3>
+Thank you to the developers and maintainers of the libraries, tools and services used by this project. Refer to the source and in-app open-source notices for dependency-specific attribution.
 
-<table align="center">
-  <tr>
-    <th align="center">Project</th>
-    <th align="center">Credit</th>
-  </tr>
-  <tr>
-    <td align="center"><strong>BitChord</strong></td>
-    <td align="center">kushagrasinghx — the base for this version's interface and code</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/z-huang/InnerTune">InnerTune</a></td>
-    <td align="center">Zion Huang, Malopieds and contributors</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/DD3Boh/OuterTune">OuterTune</a></td>
-    <td align="center">Davide Garberi, Michael Zh and contributors</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/vfsfitvnm/ViMusic">ViMusic</a></td>
-    <td align="center">vfsfitvnm and contributors — an inspiration acknowledged by InnerTune</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://better-lyrics.boidu.dev">Better Lyrics</a></td>
-    <td align="center">Lyrics project acknowledged in Mixify's earlier documentation</td>
-  </tr>
-</table>
+**Developer links:** [Portfolio](https://portfolio.mixify.co.in/) · [GitHub](https://github.com/scisims12) · [Instagram](https://www.instagram.com/sharmaajikabadabeta/)
 
-<p>
-Thank you to the maintainers of the libraries, tools and services used by Mixify.<br />
-See the source and in-app open-source notices for dependency-specific attribution.
-</p>
+## Privacy
 
-<h3>Connect with the Developer</h3>
+[Privacy Policy](https://mixify.co.in/privacy) · [Terms & Conditions](https://mixify.co.in/terms)
 
-<a href="https://portfolio.mixify.co.in/">Portfolio</a> ·
-<a href="https://github.com/scisims12">GitHub</a> ·
-<a href="https://www.instagram.com/sharmaajikabadabeta/">Instagram</a>
+The anonymous live listening counter is optional and **OFF by default**. To contribute, enable **Share anonymous live listening status** in Settings. The public badge shows participating listeners, not total installations or all active users.
 
-<hr />
+## Security
 
-<h2 id="privacy">Privacy</h2>
+Never commit or attach secrets to public issues or pull requests. Keep these private:
 
-<a href="https://mixify.co.in/privacy">Privacy Policy</a> ·
-<a href="https://mixify.co.in/terms">Terms &amp; Conditions</a>
+- `.env`, `local.properties` and `key.properties` files.
+- Signing keys such as `.jks` and `.keystore` files.
+- API keys, access tokens, passwords and service account credentials.
+- Logs or screenshots containing personal information.
 
-<p>
-The anonymous live listening counter is optional and <strong>OFF by default</strong>.<br />
-To contribute, enable <strong>Share anonymous live listening status</strong> in Settings.
-</p>
+If a secret is exposed, revoke or rotate it and remove it from the repository's history where appropriate.
 
-<p>
-The public badge shows participating listeners,<br />
-not total installations or all active users.
-</p>
+For a security-sensitive issue, avoid posting exploit details or credentials publicly. Use GitHub's private vulnerability reporting option if it is available, or ask the maintainer for a private reporting channel without disclosing sensitive details.
 
-<hr />
+## FAQ
 
-<h2 id="security">Security</h2>
+**Where can I find the latest version?**  
+Use [GitHub Releases](https://github.com/MixifyTeam/Mixify/releases/latest) or the [official website](https://mixify.co.in/). The screenshots may preview a version that has not yet been published.
 
-<p>
-Never commit secrets or attach them to public issues and pull requests.
-</p>
+**What does Total Downloads count?**  
+Downloads of release assets across this GitHub repository. It is not a count of unique users or installations and does not include other stores.
 
-<p>
-Keep these private:<br /><br />
-<code>.env</code>, <code>local.properties</code> and <code>key.properties</code><br />
-Signing keys such as <code>.jks</code> and <code>.keystore</code><br />
-API keys, access tokens and passwords<br />
-Service account credentials<br />
-Logs and screenshots containing personal information
-</p>
+**Where is the full feature list?**  
+Visit [mixify.co.in](https://mixify.co.in/). This README stays focused on getting started and project information.
 
-<p>
-If a secret is exposed, revoke or rotate it.<br />
-Remove it from the repository's history where appropriate.
-</p>
+## License
 
-<p>
-For security-sensitive issues, avoid posting exploit details or credentials publicly.<br />
-Use GitHub's private vulnerability reporting option if available,<br />
-or ask the maintainer for a private reporting channel.
-</p>
+Mixify is distributed under the **GNU General Public License v3.0**. Read [LICENSE](LICENSE) for the full terms. Preserve the original copyright and license notices when modifying or redistributing the project.
 
-<hr />
-
-<h2 id="faq">FAQ</h2>
-
-<h3>Where can I find the latest version?</h3>
-
-<p>
-Use <a href="https://github.com/MixifyTeam/Mixify/releases/latest">GitHub Releases</a>
-or the <a href="https://mixify.co.in/">official website</a>.<br />
-Screenshots may preview a version that has not yet been published.
-</p>
-
-<h3>What does Total Downloads count?</h3>
-
-<p>
-Downloads of release assets across this GitHub repository.<br />
-It does not represent unique users or installations,
-and does not include other stores.
-</p>
-
-<h3>Where is the full feature list?</h3>
-
-<p>
-Visit <a href="https://mixify.co.in/">mixify.co.in</a>
-for detailed features and updates.
-</p>
-
-<hr />
-
-<h2 id="license">License</h2>
-
-<p>
-Mixify is distributed under the
-<strong>GNU General Public License v3.0</strong>.<br />
-Read <a href="LICENSE">LICENSE</a> for the full terms.
-</p>
-
-<p>
-Preserve original copyright and license notices
-when modifying or redistributing the project.<br />
 Third-party libraries and assets retain their applicable licenses.
-</p>
 
-<hr />
+## Disclaimer
 
-<h2 id="disclaimer">Disclaimer</h2>
+Mixify is an independent project. Mentioning upstream projects or services does not imply their endorsement. Third-party music, artwork, trademarks and services belong to their respective owners.
 
-<p>
-Mixify is an independent project.<br />
-Mentioning upstream projects or services does not imply their endorsement.<br />
-Third-party music, artwork, trademarks and services belong to their respective owners.
-</p>
+---
 
-<hr />
+<div align="center">
 
-<h2>Mixify</h2>
+**Mixify — Listen. Discover. Enjoy.**
 
-<h3>Listen. Discover. Enjoy.</h3>
-
-<p>
-Maintained by
-<a href="https://portfolio.mixify.co.in/">Priyanshu Sharma</a>
-</p>
-
-<a href="https://mixify.co.in/">Website</a> ·
-<a href="https://github.com/MixifyTeam/Mixify">GitHub</a> ·
-<a href="https://github.com/sponsors/scisims12">Support Mixify</a>
+Maintained by [Priyanshu Sharma](https://portfolio.mixify.co.in/) · [Website](https://mixify.co.in/) · [Support Mixify](https://github.com/sponsors/scisims12)
 
 </div>
