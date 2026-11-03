@@ -13,8 +13,7 @@ A modern music experience for Android.
 
 **[Download APK](https://github.com/MixifyTeam/Mixify/releases/latest) · [Website & Features](https://mixify.co.in/) · [Telegram](https://t.me/mixify20)**
 
-</div>
-
+---
 
 **[About](#about-mixify) · [Screenshots](#screenshots) · [Download](#download--installation) · [Community](#community) · [Support](#support--sponsor) · [Credits](#credits--project-origins) · [Security](#security)**
 
@@ -24,36 +23,36 @@ Mixify is a free, open-source Android music app maintained by Priyanshu Sharma. 
 
 This README introduces the project, shows the current UI, and brings together downloads, support and contributor information. Visit [the official website](https://mixify.co.in/) for detailed features and updates.
 
-> The screenshots below preview Mixify 1.0.7. The release badge and download links show the latest published release, which may be an earlier version until 1.0.7 is published.
+**Note:** The screenshots below preview Mixify 1.0.7. The release badge and download links show the latest published release, which may be an earlier version until 1.0.7 is published.
 
 ## Screenshots
 
 Mixify 1.0.7 preview.
 
-<table>
+<table align="center">
 <tr>
-<th>Home</th>
-<th>Player</th>
-<th>Lyrics</th>
-<th>Explore</th>
+<th align="center">Home</th>
+<th align="center">Player</th>
+<th align="center">Lyrics</th>
+<th align="center">Explore</th>
 </tr>
 <tr>
-<td><img src="assets/screenshots/home.jpg" width="210" alt="Mixify Home" /></td>
-<td><img src="assets/screenshots/player.jpg" width="210" alt="Mixify Player" /></td>
-<td><img src="assets/screenshots/lyrics.jpg" width="210" alt="Mixify Lyrics" /></td>
-<td><img src="assets/screenshots/explore.jpg" width="210" alt="Mixify Explore" /></td>
+<td align="center"><img src="assets/screenshots/home.jpg" width="210" alt="Mixify Home" /></td>
+<td align="center"><img src="assets/screenshots/player.jpg" width="210" alt="Mixify Player" /></td>
+<td align="center"><img src="assets/screenshots/lyrics.jpg" width="210" alt="Mixify Lyrics" /></td>
+<td align="center"><img src="assets/screenshots/explore.jpg" width="210" alt="Mixify Explore" /></td>
 </tr>
 <tr>
-<th>Library</th>
-<th>Listen Together</th>
-<th>Video Player</th>
-<th>Playlist</th>
+<th align="center">Library</th>
+<th align="center">Listen Together</th>
+<th align="center">Video Player</th>
+<th align="center">Playlist</th>
 </tr>
 <tr>
-<td><img src="assets/screenshots/library.jpg" width="210" alt="Mixify Library" /></td>
-<td><img src="assets/screenshots/listen-together.jpg" width="210" alt="Mixify Listen Together" /></td>
-<td><img src="assets/screenshots/video-player.jpg" width="210" alt="Mixify Video Player" /></td>
-<td><img src="assets/screenshots/playlist.jpg" width="210" alt="Mixify Playlist" /></td>
+<td align="center"><img src="assets/screenshots/library.jpg" width="210" alt="Mixify Library" /></td>
+<td align="center"><img src="assets/screenshots/listen-together.jpg" width="210" alt="Mixify Listen Together" /></td>
+<td align="center"><img src="assets/screenshots/video-player.jpg" width="210" alt="Mixify Video Player" /></td>
+<td align="center"><img src="assets/screenshots/playlist.jpg" width="210" alt="Mixify Playlist" /></td>
 </tr>
 </table>
 
@@ -65,10 +64,13 @@ Explore the full feature list and more screenshots on [mixify.co.in](https://mix
 [![Official Website](https://img.shields.io/badge/Official_Website-mixify.co.in-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white)](https://mixify.co.in)
 [![APKPure](https://img.shields.io/badge/Download_on-APKPure-00A870?style=for-the-badge&logo=android&logoColor=white)](PASTE_APKPURE_LISTING_URL_HERE)
 
-1. Open the official website or GitHub release page.
-2. Read the release notes and choose the phone APK that matches your device, or the universal APK when available.
-3. Open the downloaded APK and allow installation from that source if Android asks.
-4. Install Mixify and start listening.
+**1.** Open the official website or GitHub release page.
+
+**2.** Read the release notes and choose the phone APK that matches your device, or the universal APK when available.
+
+**3.** Open the downloaded APK and allow installation from that source if Android asks.
+
+**4.** Install Mixify and start listening.
 
 For an update, install over your existing app using a compatible APK signed with the same key. Avoid uninstalling first if you want to keep your local app data. Availability on third-party stores can differ from GitHub.
 
@@ -96,28 +98,28 @@ Thank you to everyone who supports the project.
 
 [Report a bug or suggest an improvement](https://github.com/MixifyTeam/Mixify/issues). For a bug report, include:
 
-- Mixify version and build type.
-- Android version and device model.
-- What happened and steps to reproduce it.
-- A screenshot or screen recording, when useful.
-- Relevant logs with private information removed.
+Mixify version and build type.<br>
+Android version and device model.<br>
+What happened and steps to reproduce it.<br>
+A screenshot or screen recording, when useful.<br>
+Relevant logs with private information removed.
 
 ## Contributing
 
 Contributions are welcome. Check existing issues before starting, keep changes focused, and test the affected behavior before opening a pull request.
 
-1. Fork the repository and create a branch.
-2. Make and test your changes.
-3. Open a pull request explaining the change and how you checked it.
+**1.** Fork the repository and create a branch.
+
+**2.** Make and test your changes.
+
+**3.** Open a pull request explaining the change and how you checked it.
 
 ### Building from source
 
 Clone the project and open it in Android Studio:
 
-```bash
-git clone https://github.com/MixifyTeam/Mixify.git
-cd Mixify
-```
+<code>git clone https://github.com/MixifyTeam/Mixify.git</code><br>
+<code>cd Mixify</code>
 
 Use the JDK and Android SDK required by the project's Gradle configuration. Allow Gradle to sync, select the intended build variant, and run on a device or emulator. Keep machine-specific configuration and credentials local.
 
@@ -137,13 +139,32 @@ Mixify builds on existing open-source work. It does not claim that all of its co
 
 ### Special Thanks
 
-| Project | Credit |
-| --- | --- |
-| BitChord | kushagrasinghx — the base for this version's interface and code |
-| [InnerTune](https://github.com/z-huang/InnerTune) | Zion Huang, Malopieds and contributors |
-| [OuterTune](https://github.com/DD3Boh/OuterTune) | Davide Garberi, Michael Zh and contributors |
-| [ViMusic](https://github.com/vfsfitvnm/ViMusic) | vfsfitvnm and contributors — an inspiration acknowledged by InnerTune |
-| [Better Lyrics](https://better-lyrics.boidu.dev) | Lyrics project acknowledged in Mixify's earlier documentation |
+<table align="center">
+<tr>
+<th align="center">Project</th>
+<th align="center">Credit</th>
+</tr>
+<tr>
+<td align="center">BitChord</td>
+<td align="center">kushagrasinghx — the base for this version's interface and code</td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/z-huang/InnerTune">InnerTune</a></td>
+<td align="center">Zion Huang, Malopieds and contributors</td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/DD3Boh/OuterTune">OuterTune</a></td>
+<td align="center">Davide Garberi, Michael Zh and contributors</td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/vfsfitvnm/ViMusic">ViMusic</a></td>
+<td align="center">vfsfitvnm and contributors — an inspiration acknowledged by InnerTune</td>
+</tr>
+<tr>
+<td align="center"><a href="https://better-lyrics.boidu.dev">Better Lyrics</a></td>
+<td align="center">Lyrics project acknowledged in Mixify's earlier documentation</td>
+</tr>
+</table>
 
 Thank you to the developers and maintainers of the libraries, tools and services used by this project. Refer to the source and in-app open-source notices for dependency-specific attribution.
 
@@ -159,10 +180,10 @@ The anonymous live listening counter is optional and **OFF by default**. To cont
 
 Never commit or attach secrets to public issues or pull requests. Keep these private:
 
-- `.env`, `local.properties` and `key.properties` files.
-- Signing keys such as `.jks` and `.keystore` files.
-- API keys, access tokens, passwords and service account credentials.
-- Logs or screenshots containing personal information.
+<code>.env</code>, <code>local.properties</code> and <code>key.properties</code> files.<br>
+Signing keys such as <code>.jks</code> and <code>.keystore</code> files.<br>
+API keys, access tokens, passwords and service account credentials.<br>
+Logs or screenshots containing personal information.
 
 If a secret is exposed, revoke or rotate it and remove it from the repository's history where appropriate.
 
@@ -170,13 +191,16 @@ For a security-sensitive issue, avoid posting exploit details or credentials pub
 
 ## FAQ
 
-**Where can I find the latest version?**  
+**Where can I find the latest version?**
+
 Use [GitHub Releases](https://github.com/MixifyTeam/Mixify/releases/latest) or the [official website](https://mixify.co.in/). The screenshots may preview a version that has not yet been published.
 
-**What does Total Downloads count?**  
+**What does Total Downloads count?**
+
 Downloads of release assets across this GitHub repository. It is not a count of unique users or installations and does not include other stores.
 
-**Where is the full feature list?**  
+**Where is the full feature list?**
+
 Visit [mixify.co.in](https://mixify.co.in/). This README stays focused on getting started and project information.
 
 ## License
@@ -190,8 +214,6 @@ Third-party libraries and assets retain their applicable licenses.
 Mixify is an independent project. Mentioning upstream projects or services does not imply their endorsement. Third-party music, artwork, trademarks and services belong to their respective owners.
 
 ---
-
-<div align="center">
 
 **Mixify — Listen. Discover. Enjoy.**
 
