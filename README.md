@@ -61,7 +61,9 @@ Explore the full feature list and more screenshots on [mixify.co.in](https://mix
 
 ## Download & Installation
 
-**[Download from GitHub Releases](https://github.com/MixifyTeam/Mixify/releases/latest)** · **[Official website](https://mixify.co.in/)** · [APKPure listing](https://apkpure.com/p/com.mixify.app)
+[![Download Mixify](https://img.shields.io/badge/Download_APK-GitHub_Releases-2EA44F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MixifyTeam/Mixify/releases/latest)
+[![Official Website](https://img.shields.io/badge/Official_Website-mixify.co.in-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white)](https://mixify.co.in)
+[![APKPure](https://img.shields.io/badge/Download_on-APKPure-00A870?style=for-the-badge&logo=android&logoColor=white)](PASTE_APKPURE_LISTING_URL_HERE)
 
 1. Open the official website or GitHub release page.
 2. Read the release notes and choose the phone APK that matches your device, or the universal APK when available.
