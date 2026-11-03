@@ -217,6 +217,16 @@ Mixify is an independent project. Mentioning upstream projects or services does 
 
 **Mixify — Listen. Discover. Enjoy.**
 
-Maintained by [Priyanshu Sharma](https://portfolio.mixify.co.in/) · [Website](https://mixify.co.in/) · [Support Mixify](https://github.com/sponsors/scisims12)
+<p align="center">
+  <a href="https://portfolio.mixify.co.in/">
+    <img src="https://img.shields.io/badge/Maintained_by-Priyanshu_Sharma-8B5CF6?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" alt="Maintained by Priyanshu Sharma" />
+  </a>
+  <a href="https://mixify.co.in/">
+    <img src="https://img.shields.io/badge/Website-Mixify-00C9A7?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0d1117" alt="Mixify Website" />
+  </a>
+  <a href="https://github.com/sponsors/scisims12">
+    <img src="https://img.shields.io/badge/Support-Mixify-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white&labelColor=0d1117" alt="Support Mixify" />
+  </a>
+</p>
 
 </div>
