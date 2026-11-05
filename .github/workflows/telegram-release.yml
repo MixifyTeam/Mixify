@@ -1,0 +1,63 @@
+name: Telegram Release Announcement
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: read
+
+jobs:
+  announce:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post release to Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import urllib.request
+
+          with open(os.environ["GITHUB_EVENT_PATH"]) as f:
+              release = json.load(f)["release"]
+
+          title = release.get("name") or release["tag_name"]
+          notes = (release.get("body") or "").strip()
+          if len(notes) > 2800:
+              notes = notes[:2800] + "\n…See full release notes below."
+
+          message = (
+              f"🎶 Mixify Update: {title}\n\n"
+              f"{notes}\n\n"
+              f"📥 Download & release notes:\n{release['html_url']}\n\n"
+              "🌐 https://mixify.co.in/"
+          )
+
+          payload = json.dumps({
+              "chat_id": "@mixify20",
+              "text": message
+          }).encode()
+
+          request = urllib.request.Request(
+              "https://api.telegram.org/bot"
+              + os.environ["TELEGRAM_BOT_TOKEN"]
+              + "/sendMessage",
+              data=payload,
+              headers={"Content-Type": "application/json"}
+          )
+
+          try:
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  result = json.load(response)
+              if not result.get("ok"):
+                  raise RuntimeError("Telegram rejected the announcement")
+          except Exception:
+              raise SystemExit(
+                  "Announcement failed. Check the bot token, channel username, "
+                  "and bot's Post Messages permission."
+              )
+
+          print("Release announcement posted.")
+          PY
