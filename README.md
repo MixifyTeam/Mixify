@@ -17,6 +17,13 @@ A modern music experience for Android.
 
 **[About](#about-mixify) · [Screenshots](#screenshots) · [Download](#download--installation) · [Community](#community) · [Support](#support--sponsor) · [Credits](#credits--project-origins) · [Security](#security)**
 
+<a href="https://alternativeto.net/software/mixify-android/about/?utm_source=badge&utm_medium=referral" target="_blank">
+  <img src="https://alternativeto.net/static/badges/badge-wide-dark.svg"
+       alt="Mixify (Android) | AlternativeTo"
+       width="284" height="54"
+       style="width: 284px; height: 54px;" />
+</a>
+
 ## About Mixify
 
 Mixify is a free, open-source Android music app maintained by Priyanshu Sharma. Version 1.0.7 brings Mixify's identity to a refreshed interface based on BitChord, with a new Home presentation and updated app information and sharing experience.
