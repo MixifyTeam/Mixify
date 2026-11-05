@@ -83,10 +83,6 @@ For an update, install over your existing app using a compatible APK signed with
 
 [View all releases](https://github.com/MixifyTeam/Mixify/releases)
 
-## Community
-
-Join the community for release announcements, discussion and feedback.
-
 <h2 align="center">Community</h2>
 
 <p align="center">
