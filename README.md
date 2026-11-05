@@ -244,10 +244,21 @@ Mixify is distributed under the **GNU General Public License v3.0**. Read [LICEN
 
 Third-party libraries and assets retain their applicable licenses.
 
-<h2 align="center">Disclaimer</h2>
+<h2 align="center">Disclaimer & Legal Notice</h2>
 
-Mixify is an independent project. Mentioning upstream projects or services does not imply their endorsement. Third-party music, artwork, trademarks and services belong to their respective owners.
+Mixify is an independent, open-source Android music player and third-party client. It is not affiliated with, endorsed by, or sponsored by Google LLC, YouTube, YouTube Music, or other third-party services accessed through the app.
 
+- **Third-Party Content:** Music, videos, lyrics, artwork, trademarks, and other third-party content belong to their respective owners. Mixify does not claim ownership of this content.
+
+- **Responsible Use:** Use Mixify only to access, play, or download content you are authorized to use. Users must comply with applicable laws and the terms of the services they access. Open-source availability does not grant rights to third-party content.
+
+- **Service Availability:** Features that depend on third-party services may change, become unavailable, or stop working without notice. Uninterrupted access, compatibility, and ad-free playback are not guaranteed.
+
+- **Open-Source Attribution:** Mixify builds on existing open-source projects, including BitChord. Original authorship, copyright notices, and applicable licenses must be preserved.
+
+- **License:** Mixify is distributed under the GNU General Public License v3.0. Modification and redistribution are subject to its terms, including applicable source-code obligations. Third-party components and content retain their respective licenses and rights.
+
+- **No Warranty:** Mixify is provided without warranty, to the extent permitted by applicable law. See the LICENSE file for the full warranty disclaimer and limitation of liability.
 ---
 
 <p align="center">
