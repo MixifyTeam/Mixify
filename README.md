@@ -87,8 +87,16 @@ For an update, install over your existing app using a compatible APK signed with
 
 Join the community for release announcements, discussion and feedback.
 
-[![Telegram](https://img.shields.io/badge/Telegram-Join%20Mixify-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0d1117)](https://t.me/mixify20)
 [![Discord](https://img.shields.io/badge/Discord-Join%20Mixify-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=0d1117)](https://discord.gg/qtVYB2wyH3)
+<p align="center">
+  <a href="https://t.me/mixify20">
+    <img src="https://img.shields.io/badge/Updates-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Mixify Telegram Updates">
+  </a>
+  &nbsp;
+  <a href="https://t.me/YOUR_GROUP_USERNAME">
+    <img src="https://img.shields.io/badge/Community_Chat-26A69A?style=for-the-badge&logo=telegram&logoColor=white" alt="Mixify Community Chat">
+  </a>
+</p>
 
 ## Support & Sponsor
 
