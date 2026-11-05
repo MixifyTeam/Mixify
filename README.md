@@ -87,15 +87,18 @@ For an update, install over your existing app using a compatible APK signed with
 
 Join the community for release announcements, discussion and feedback.
 
-[![Discord](https://img.shields.io/badge/Discord-Join%20Mixify-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=0d1117)](https://discord.gg/qtVYB2wyH3)
+<h2 align="center">Community</h2>
+
 <p align="center">
-  <a href="https://t.me/mixify20">
-    <img src="https://img.shields.io/badge/Updates-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Mixify Telegram Updates">
-  </a>
+  Join the community for release announcements, discussion and feedback.
+</p>
+
+<p align="center">
+  <a href="https://t.me/mixify20"><img src="https://img.shields.io/badge/Updates-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Mixify Updates"></a>
   &nbsp;
-  <a href="https://t.me/YOUR_GROUP_USERNAME">
-    <img src="https://img.shields.io/badge/Community_Chat-26A69A?style=for-the-badge&logo=telegram&logoColor=white" alt="Mixify Community Chat">
-  </a>
+  <a href="https://t.me/MixifyCommunityy"><img src="https://img.shields.io/badge/Community_Chat-26A69A?style=for-the-badge&logo=telegram&logoColor=white" alt="Mixify Community Chat"></a>
+  &nbsp;
+  <a href="https://discord.gg/qtVYB2wyH3"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Mixify Discord"></a>
 </p>
 
 ## Support & Sponsor
