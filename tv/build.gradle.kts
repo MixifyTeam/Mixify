@@ -24,15 +24,15 @@ val localProps = Properties().apply {
     if (file.exists()) file.inputStream().use { load(it) }
 }
 val lastfmApiKey: String = (
-    localProps.getProperty("LASTFM_API_KEY")
-        ?: System.getenv("LASTFM_API_KEY")
-        ?: ""
-    ).trim()
+        localProps.getProperty("LASTFM_API_KEY")
+            ?: System.getenv("LASTFM_API_KEY")
+            ?: ""
+        ).trim()
 val lastfmSecret: String = (
-    localProps.getProperty("LASTFM_SECRET")
-        ?: System.getenv("LASTFM_SECRET")
-        ?: ""
-    ).trim()
+        localProps.getProperty("LASTFM_SECRET")
+            ?: System.getenv("LASTFM_SECRET")
+            ?: ""
+        ).trim()
 
 /*
  * Where Listen Together's party server lives. Not a credential — it is a public
@@ -47,10 +47,10 @@ val lastfmSecret: String = (
  * the screen. See ListenTogether.DEFAULT_SERVER.
  */
 val listenTogetherServer: String = (
-    localProps.getProperty("LISTEN_TOGETHER_SERVER")
-        ?: System.getenv("LISTEN_TOGETHER_SERVER")
-        ?: "https://bitchord-listen-together.onrender.com"
-    ).trim().trimEnd('/')
+        localProps.getProperty("LISTEN_TOGETHER_SERVER")
+            ?: System.getenv("LISTEN_TOGETHER_SERVER")
+            ?: "https://bitchord-listen-together.onrender.com"
+        ).trim().trimEnd('/')
 
 /*
  * Bump this by hand before cutting each sideloaded test build ("beta2",
@@ -67,6 +67,22 @@ val listenTogetherServer: String = (
  * comes. Blanking this line is the one step that turns a beta into a release,
  * so it is the one place to get right.
  */
+
+val youtubeApiKey: String = (
+        localProps.getProperty("YOUTUBE_API_KEY")
+            ?: System.getenv("YOUTUBE_API_KEY")
+            ?: ""
+        ).trim()
+
+val liveCounterUrl: String = (
+        localProps.getProperty("LIVE_COUNTER_URL")
+            ?: System.getenv("LIVE_COUNTER_URL")
+            ?: ""
+        ).trim().trimEnd('/')
+
+fun buildConfigString(value: String): String =
+    "\"" + value.replace("\\", "\\\\").replace("\"", "\\\"") + "\""
+
 val betaSuffix = ""
 
 android {
@@ -86,6 +102,10 @@ android {
         versionName = rootProject.extra["mixifyVersionName"] as String
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        buildConfigField("String", "YOUTUBE_API_KEY", buildConfigString(youtubeApiKey))
+        buildConfigField("String", "LIVE_COUNTER_URL", buildConfigString(liveCounterUrl))
+
 
         // Last.fm credentials are supplied locally and never committed.
         buildConfigField("String", "LASTFM_API_KEY", "\"${lastfmApiKey.replace("\\", "\\\\").replace("\"", "\\\"")}\"")
