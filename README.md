@@ -148,13 +148,14 @@ cd Mixify
 
 Open the project in Android Studio and let Gradle sync.
 
-<h3 align="center">Thanks to all contributors ❤️</h3>
-
-<p align="center">
+<div align="center">
+  <h2>Thanks to all contributors ❤️</h2>
+  <p>Thanks to everyone who helps improve Mixify!</p>
   <a href="https://github.com/MixifyTeam/Mixify/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=MixifyTeam/Mixify&max=100" alt="Mixify contributors" />
+    <img src="https://contrib.rocks/image?repo=MixifyTeam/Mixify" alt="Mixify GitHub contributors" />
   </a>
-</p>
+  <p><a href="https://github.com/MixifyTeam/Mixify/graphs/contributors">View all contributors</a></p>
+</div>
 
 <h2 align="center">Credits & Project Origins</h2>
 
