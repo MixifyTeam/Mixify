@@ -19,6 +19,8 @@ A modern music experience for Android.
   <img src="https://alternativeto.net/static/badges/badge-wide-dark.svg" alt="Mixify on AlternativeTo" width="284" height="54" />
 </a>
 
+[![Trendshift](https://img.shields.io/badge/Trendshift-Mixify-6366F1?style=for-the-badge)](https://trendshift.io/repositories/289766)
+
 </div>
 
 <h2 align="center">About Mixify</h2>
