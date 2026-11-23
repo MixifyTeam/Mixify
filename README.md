@@ -31,9 +31,13 @@ Version 1.0.7 brings Mixify’s identity to a refreshed interface based on BitCh
 
 Explore the screenshots below, download the latest release, or visit the [official website](https://mixify.co.in/) for features and updates.
 
+<h2 align="center">Mixify v1.0.8 Upadte</h2>
+
+https://github.com/user-attachments/assets/5971428f-644f-4dbe-b591-6a3b6ff794e2
+
 <h2 align="center">Screenshots</h2>
 
-<p align="center">Mixify 1.0.7 preview.</p>
+<p align="center">Mixify 1.0.8 preview.</p>
 
 <table align="center">
   <tr>
