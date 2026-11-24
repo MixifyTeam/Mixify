@@ -277,6 +277,9 @@ Mixify is an independent, open-source Android music player and third-party clien
 </p>
 
 <p align="center">
+  <img src="assets/mixify-collage.jpg" width="100%" alt="Mixify screenshots" />
+</p>
+<p align="center">
   <strong>Mixify — Listen. Discover. Enjoy.</strong>
 </p>
 
@@ -287,3 +290,4 @@ Mixify is an independent, open-source Android music player and third-party clien
   &nbsp;
   <a href="https://github.com/sponsors/scisims12"><img src="https://img.shields.io/badge/Support-Mixify-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white&labelColor=0d1117" alt="Support Mixify" /></a>
 </p>
+
