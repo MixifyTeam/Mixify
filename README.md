@@ -39,28 +39,17 @@ Explore the screenshots below, download the latest release, or visit the [offici
   <tr>
     <th align="center">Home</th>
     <th align="center">Player</th>
-    <th align="center">Lyrics</th>
-    <th align="center">Explore</th>
+    <th align="center">Listen Together</th>
+    <th align="center">Custom Lock Screen</th>
   </tr>
   <tr>
     <td align="center"><img src="assets/screenshots/home.jpg" width="210" alt="Mixify Home" /></td>
     <td align="center"><img src="assets/screenshots/player.jpg" width="210" alt="Mixify Player" /></td>
-    <td align="center"><img src="assets/screenshots/lyrics.jpg" width="210" alt="Mixify Lyrics" /></td>
-    <td align="center"><img src="assets/screenshots/explore.jpg" width="210" alt="Mixify Explore" /></td>
-  </tr>
-  <tr>
-    <th align="center">Library</th>
-    <th align="center">Listen Together</th>
-    <th align="center">Video Player</th>
-    <th align="center">Playlist</th>
-  </tr>
-  <tr>
-    <td align="center"><img src="assets/screenshots/library.jpg" width="210" alt="Mixify Library" /></td>
     <td align="center"><img src="assets/screenshots/listen-together.jpg" width="210" alt="Mixify Listen Together" /></td>
-    <td align="center"><img src="assets/screenshots/video-player.jpg" width="210" alt="Mixify Video Player" /></td>
-    <td align="center"><img src="assets/screenshots/playlist.jpg" width="210" alt="Mixify Playlist" /></td>
+    <td align="center"><img src="assets/screenshots/custom-lock-screen.jpg" width="210" alt="Mixify Custom Lock Screen" /></td>
   </tr>
 </table>
+  
 
 <p align="center">
   Explore the full feature list and more screenshots on
