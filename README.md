@@ -54,7 +54,7 @@ For the complete feature list, visit [mixify.co.in](https://mixify.co.in/).
   </tr>
   <tr>
     <td align="center"><img src="assets/screenshots/home.jpg" width="210" alt="Mixify Home" /></td>
-    <td align="center"><img src="assets/screenshots/player.jpg" width="210" alt="Mixify Player" /></td>
+    <td align="center"><img src="assets/screenshots/player1.jpg" width="210" alt="Mixify Player" /></td>
     <td align="center"><img src="assets/screenshots/listen-together.jpg" width="210" alt="Mixify Listen Together" /></td>
     <td align="center"><img src="assets/screenshots/custom-lock-screen.jpg" width="210" alt="Mixify Custom Lock Screen" /></td>
   </tr>
