@@ -166,7 +166,7 @@ cd Mixify
 
 <h2 align="center">Credits & Project Origins</h2>
 
-**Mixify's current interface is based on BitChord 1.9 by [kushagrasinghx](https://github.com/kushagrasinghx).** Mixify's branding, configuration and subsequent changes are maintained by [Priyanshu Sharma](https://github.com/scisims12). See [MIXIFY_ORIGINAL_NOTICE.md](MIXIFY_ORIGINAL_NOTICE.md) and [MIXIFY_ORIGINAL_COMPARISON.md](MIXIFY_ORIGINAL_COMPARISON.md) for attribution details.
+**Mixify's current interface is based on BitChord 1.9 by [kushagrasinghx](https://github.com/kushagrasinghx).** Mixify's branding, configuration and subsequent changes are maintained by [Priyanshu Sharma](https://github.com/scisims12).
 
 Mixify builds on existing open-source work. It does not claim that all of its code, design or functionality was created from scratch. Original authorship, copyright notices and applicable licenses must be preserved.
 
