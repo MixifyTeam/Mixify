@@ -27,9 +27,23 @@ A modern music experience for Android.
 
 Mixify is a free, open-source Android music app maintained by Priyanshu Sharma.
 
-Version 1.0.7 brings Mixify’s identity to a refreshed interface based on BitChord, with an updated Home screen, app information, and sharing experience.
+Mixify brings its own identity to a refreshed interface based on BitChord, with an updated Home screen, app information, and sharing experience. The latest release is **v1.0.8**.
 
-Explore the screenshots below, download the latest release, or visit the [official website](https://mixify.co.in/) for features and updates.
+Watch the demo below, explore the screenshots, download the latest release, or visit the [official website](https://mixify.co.in/) for the full feature list and updates.
+
+<h2 align="center">Mixify v1.0.8 Demo</h2>
+
+https://github.com/user-attachments/assets/07c8688d-aaf4-4330-9c14-8f2f7776d838
+
+<h2 align="center">Highlights</h2>
+
+- **Listen Together:** listen to music in sync with friends.
+- **Custom Lock Screen:** a customizable lock screen player.
+- **Lyrics:** follow along with lyrics while you listen.
+- **Video Player:** switch between song and video playback.
+- **Explore and Library:** discover new music and manage your playlists in one place.
+
+For the complete feature list, visit [mixify.co.in](https://mixify.co.in/).
 
 <h2 align="center">Screenshots</h2>
 
@@ -49,10 +63,9 @@ Explore the screenshots below, download the latest release, or visit the [offici
     <td align="center"><img src="assets/screenshots/custom-lock-screen.jpg" width="210" alt="Mixify Custom Lock Screen" /></td>
   </tr>
 </table>
-  
 
 <p align="center">
-  Explore the full feature list and more screenshots on
+  Explore more screenshots on
   <a href="https://mixify.co.in/">mixify.co.in</a>.
 </p>
 
@@ -121,7 +134,7 @@ For bug reports, please include:
 
 <h2 align="center">Contributing</h2>
 
-Contributions are welcome! For bug fixes or improvements:
+Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) and our [Code of Conduct](CODE_OF_CONDUCT.md) first. For bug fixes or improvements:
 
 1. Check existing issues before starting.
 2. Fork the repository and create a branch.
@@ -130,14 +143,21 @@ Contributions are welcome! For bug fixes or improvements:
 
 ### Building from source
 
-Clone the repository:
+Requirements:
+
+- A recent stable version of [Android Studio](https://developer.android.com/studio) (it includes the JDK and Android SDK tools needed to build).
+- A device or emulator running Android.
+
+Steps:
 
 ```bash
 git clone https://github.com/MixifyTeam/Mixify.git
 cd Mixify
 ```
 
-Open the project in Android Studio and let Gradle sync.
+1. Open the project in Android Studio and let Gradle sync.
+2. For release builds, copy `keystore.properties.example` to `keystore.properties` and fill in your own signing details. Never commit this file.
+3. Build and run with the **Run** button, or use `./gradlew assembleDebug` (`gradlew.bat assembleDebug` on Windows).
 
 <div align="center">
   <h2>Thanks to all contributors ❤️</h2>
@@ -150,7 +170,7 @@ Open the project in Android Studio and let Gradle sync.
 
 <h2 align="center">Credits & Project Origins</h2>
 
-**Mixify 1.0.7 is based on BitChord 1.9 by [kushagrasinghx](https://github.com/kushagrasinghx).** Mixify's branding, configuration and subsequent changes are maintained by [Priyanshu Sharma](https://github.com/scisims12).
+**Mixify's current interface is based on BitChord 1.9 by [kushagrasinghx](https://github.com/kushagrasinghx).** Mixify's branding, configuration and subsequent changes are maintained by [Priyanshu Sharma](https://github.com/scisims12). See [MIXIFY_ORIGINAL_NOTICE.md](MIXIFY_ORIGINAL_NOTICE.md) and [MIXIFY_ORIGINAL_COMPARISON.md](MIXIFY_ORIGINAL_COMPARISON.md) for attribution details.
 
 Mixify builds on existing open-source work. It does not claim that all of its code, design or functionality was created from scratch. Original authorship, copyright notices and applicable licenses must be preserved.
 
@@ -179,7 +199,7 @@ Mixify builds on existing open-source work. It does not claim that all of its co
   </tr>
   <tr>
     <td><a href="https://better-lyrics.boidu.dev">Better Lyrics</a></td>
-    <td>Lyrics project acknowledged in Mixify's earlier documentation</td>
+    <td>Lyrics project</td>
   </tr>
 </table>
 
@@ -210,7 +230,7 @@ Never commit or attach secrets to public issues or pull requests. Keep these pri
 
 If a secret is exposed, revoke or rotate it and remove it from the repository's history where appropriate.
 
-For a security-sensitive issue, avoid posting exploit details or credentials publicly. Use GitHub's private vulnerability reporting option if available, or ask the maintainer for a private reporting channel without disclosing sensitive details.
+For a security-sensitive issue, avoid posting exploit details or credentials publicly. Read [SECURITY.md](SECURITY.md) and use GitHub's private vulnerability reporting option if available, or ask the maintainer for a private reporting channel without disclosing sensitive details.
 
 <h2 align="center">FAQ</h2>
 
@@ -218,7 +238,7 @@ For a security-sensitive issue, avoid posting exploit details or credentials pub
 
 Use [GitHub Releases](https://github.com/MixifyTeam/Mixify/releases/latest) or the [official website](https://mixify.co.in/).
 
-**What does Total Downloads count?**
+**What does the Downloads badge count?**
 
 Downloads of release assets across this GitHub repository. It is not a count of unique users or installations and does not include other stores.
 
@@ -247,10 +267,12 @@ Mixify is an independent, open-source Android music player and third-party clien
 - **License:** Mixify is distributed under the GNU General Public License v3.0. Modification and redistribution are subject to its terms, including applicable source-code obligations. Third-party components and content retain their respective licenses and rights.
 
 - **No Warranty:** Mixify is provided without warranty, to the extent permitted by applicable law. See the LICENSE file for the full warranty disclaimer and limitation of liability.
+
 ---
 
 <p align="center">
   <a href="#about-mixify">About</a> ·
+  <a href="#highlights">Highlights</a> ·
   <a href="#screenshots">Screenshots</a> ·
   <a href="#download--installation">Download</a> ·
   <a href="#community">Community</a> ·
