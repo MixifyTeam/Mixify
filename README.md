@@ -59,7 +59,6 @@ For the complete feature list, visit [mixify.co.in](https://mixify.co.in/).
     <td align="center"><img src="assets/screenshots/custom-lock-screen.jpg" width="210" alt="Mixify Custom Lock Screen" /></td>
   </tr>
 </table>
-
 <p align="center">
   Explore more screenshots on
   <a href="https://mixify.co.in/">mixify.co.in</a>.
