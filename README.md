@@ -31,10 +31,6 @@ Mixify brings its own identity to a refreshed interface based on BitChord, with 
 
 Watch the demo below, explore the screenshots, download the latest release, or visit the [official website](https://mixify.co.in/) for the full feature list and updates.
 
-<h2 align="center">Mixify v1.0.8 Demo</h2>
-
-https://github.com/user-attachments/assets/07c8688d-aaf4-4330-9c14-8f2f7776d838
-
 <h2 align="center">Highlights</h2>
 
 - **Listen Together:** listen to music in sync with friends.
