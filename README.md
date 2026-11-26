@@ -21,11 +21,6 @@
   &nbsp;·&nbsp;
   <a href="https://t.me/MixifyCommunityy">Join the community</a>
 </p>
-<p align="center">
-  <a href="https://alternativeto.net/software/mixify-android/about/?utm_source=badge&amp;utm_medium=referral"><img src="https://alternativeto.net/static/badges/badge-wide-dark.svg" height="28" alt="Mixify on AlternativeTo" /></a>
-  &nbsp;
-  <a href="https://trendshift.io/repositories/289766"><img src="https://img.shields.io/badge/Trendshift-Mixify-8B769D?style=for-the-badge&amp;labelColor=24212B" height="28" alt="Mixify on Trendshift" /></a>
-</p>
 <br />
 A favourite on repeat, something new to discover, or a song shared with a friend. Mixify brings listening, discovery and your library together in one place.
  
