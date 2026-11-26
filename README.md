@@ -1,10 +1,4 @@
-<div align="center">
-
-<a href="https://mixify.co.in/">
-  <img src="assets/hero.png" width="100%" alt="Mixify — Listen. Discover. Enjoy." />
-</a>
-
-![Mixify demo](assets/mixify-demo.gif)
+[![Mixify — Listen. Discover. Enjoy.](https://github.com/MixifyTeam/Mixify/raw/main/assets/mixify-hero.gif)](https://mixify.co.in/)
 
 <h1>Mixify</h1>
 
