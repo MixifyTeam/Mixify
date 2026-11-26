@@ -4,6 +4,8 @@
   <img src="assets/hero.png" width="100%" alt="Mixify — Listen. Discover. Enjoy." />
 </a>
 
+![Mixify demo](assets/mixify-demo.gif)
+
 <h1>Mixify</h1>
 
 <p><strong>For the songs that stay with you.</strong></p>
@@ -39,23 +41,6 @@
 <br />
 
 A favourite on repeat, something new to discover, or a song shared with a friend. Mixify brings listening, discovery and your library together in one place.
-
-## A look inside
-
-<table>
-  <tr>
-    <td align="center"><img src="assets/screenshots/home.jpg" width="190" alt="Mixify home screen" /></td>
-    <td align="center"><img src="assets/screenshots/player1.jpg" width="190" alt="Mixify music player" /></td>
-    <td align="center"><img src="assets/screenshots/listen-together.jpg" width="190" alt="Mixify Listen Together screen" /></td>
-    <td align="center"><img src="assets/screenshots/custom-lock-screen.jpg" width="190" alt="Mixify custom lock screen player" /></td>
-  </tr>
-  <tr>
-    <td align="center">Home</td>
-    <td align="center">Player</td>
-    <td align="center">Listen Together</td>
-    <td align="center">Lock screen</td>
-  </tr>
-</table>
 
 ## Little things that make listening yours
 
