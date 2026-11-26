@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # parse_changelog.sh — Extract the changelog entry for a specific version
 #
-# Reads changelog.md (or a custom file) and outputs the content block
+# Reads docs/changelog.md (or a custom file) and outputs the content block
 # associated with the given version, as delimited by ---vX.Y.Z separators.
 #
 # Usage:
@@ -9,7 +9,7 @@
 #
 # Examples:
 #   ./parse_changelog.sh 13.2.1
-#   ./parse_changelog.sh v13.2.1 changelog.md
+#   ./parse_changelog.sh v13.2.1 docs/changelog.md
 #   ./parse_changelog.sh 13.2.1 /path/to/changelog.md
 #
 # Exit codes:
@@ -19,7 +19,7 @@
 set -euo pipefail
 
 VERSION="${1:-}"
-CHANGELOG_FILE="${2:-changelog.md}"
+CHANGELOG_FILE="${2:-docs/changelog.md}"
 
 if [ -z "$VERSION" ]; then
     echo "Error: version argument required" >&2
