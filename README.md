@@ -33,8 +33,8 @@ A favourite on repeat, something new to discover, or a song shared with a friend
 - **Explore & Library** — Discover music and keep your playlists in one place.
 More screenshots and the full feature list are on [mixify.co.in](https://mixify.co.in/).
 
- <p align="center">
-  <img src="assets/listen-together-short.gif" width="300" alt="Listen Together: start a party, share the code, listen in sync" />
+<p align="center">
+  <img src="assets/listen-together-wide.gif" alt="Listen Together: start a party, share the code, listen in sync" />
 </p>
 
 <h2 align="center">Start listening</h2>
