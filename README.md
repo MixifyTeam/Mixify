@@ -27,7 +27,7 @@ A favourite on repeat, something new to discover, or a song shared with a friend
 <h2 align="center">Little things that make listening yours</h2>
 
 <p align="center">
-  <img src="assets/listen-together-demo.gif" alt="Listen Together: create a party, share the invite, listen in sync with a friend" />
+  <img src="assets/listen-together-short.gif" width="300" alt="Listen Together: start a party, share the code, listen in sync" />
 </p>
  
 - **Listen Together** — Play music in sync with friends.
