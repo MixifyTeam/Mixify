@@ -66,6 +66,8 @@ Share a favourite, tell us what could feel better, or follow along as Mixify gro
   &nbsp;
   <a href="https://discord.gg/qtVYB2wyH3"><img src="https://img.shields.io/badge/Discord-Join_us-7A80A8?style=for-the-badge&amp;logo=discord&amp;logoColor=white&amp;labelColor=24212B" height="28" alt="Join Mixify on Discord" /></a>
 </p>
+
+
 If Mixify has found a place in your day, sharing it with a friend, starring the project, or helping fix a bug all help it grow. [Sponsorship](https://github.com/sponsors/scisims12) supports ongoing maintenance and development.
  
 <p align="center">
