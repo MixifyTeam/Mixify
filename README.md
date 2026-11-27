@@ -25,10 +25,6 @@
 A favourite on repeat, something new to discover, or a song shared with a friend. Mixify brings listening, discovery and your library together in one place.
  
 <h2 align="center">Little things that make listening yours</h2>
-
-<p align="center">
-  <img src="assets/listen-together-short.gif" width="300" alt="Listen Together: start a party, share the code, listen in sync" />
-</p>
  
 - **Listen Together** — Play music in sync with friends.
 - **Custom Lock Screen** — Make the lock screen player your own.
@@ -36,7 +32,11 @@ A favourite on repeat, something new to discover, or a song shared with a friend
 - **Video Player** — Switch between song and video playback.
 - **Explore & Library** — Discover music and keep your playlists in one place.
 More screenshots and the full feature list are on [mixify.co.in](https://mixify.co.in/).
- 
+
+ <p align="center">
+  <img src="assets/listen-together-short.gif" width="300" alt="Listen Together: start a party, share the code, listen in sync" />
+</p>
+
 <h2 align="center">Start listening</h2>
  
 <p align="center">
