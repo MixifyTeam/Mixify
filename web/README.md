@@ -35,7 +35,7 @@ Build both targets:
 corepack pnpm --dir web/extension build
 ```
 
-- **Chrome, Edge, Brave:** `chrome://extensions` → Developer mode → *Load unpacked* → `web/extension/.output/chrome-mv3`. The id is always `pkddffeebcmhhanjcigilehaeonkkfih`, pinned by the manifest `key` (`extension/dev-key/`), so the site finds it without configuration.
+- **Chrome, Edge, Brave:** `chrome://extensions` → Developer mode → *Load unpacked* → `web/extension/.output/chrome-mv3`. The id is always `ejgdckkackjkfjgedmdeonnkjmkokeef`, pinned by the manifest `key` (`extension/dev-key/`), so the site finds it without configuration.
 - **Firefox:** `about:debugging#/runtime/this-firefox` → *Load Temporary Add-on* → `web/extension/.output/firefox-mv3/manifest.json`.
 
 To offer the extension as a download from the site's Extension page, package it:
@@ -46,7 +46,7 @@ corepack pnpm --dir web/extension package
 
 This builds both targets and writes three files to `app/public/downloads/` (git-ignored):
 
-- `bitchord-extension-chrome.zip` and `bitchord-extension-firefox.zip`. Each holds a single folder (`bitchord-extension-<browser>/`), so extracting it in place leaves one folder to load unpacked.
+- `mixify-extension-chrome.zip` and `mixify-extension-firefox.zip`. Each holds a single folder (`mixify-extension-<browser>/`), so extracting it in place leaves one folder to load unpacked.
 - `extension.json`, with the version. The site compares it with the installed extension's version and shows **Update** in the sidebar and an update row on the Extension page when the zip is newer. Bump `version` in `extension/package.json` to publish an update.
 
 `VITE_EXTENSION_CHROME_URL`, `VITE_EXTENSION_FIREFOX_URL` and `VITE_EXTENSION_MANIFEST_URL` override those links, for example to point at store listings.
@@ -59,8 +59,8 @@ Then open `http://localhost:5173/extension`. It shows "Installed", with the vers
 
 | Variable | Where | Default |
 |---|---|---|
-| `BITCHORD_SITE_ORIGINS` | extension build | `https://bitchord.in,https://bitchord-8bw.pages.dev,http://localhost:5173` (store builds leave out localhost). Comma-separated origins the extension serves; replaces the default |
-| `BITCHORD_STORE_BUILD=1` | extension build | Leaves out the dev `key` for a Chrome Web Store upload |
+| `MIXIFY_SITE_ORIGINS` | extension build | `https://mixify.co.in,http://localhost:5173` (store builds leave out localhost). Comma-separated origins the extension serves; replaces the default |
+| `MIXIFY_STORE_BUILD=1` | extension build | Leaves out the dev `key` for a Chrome Web Store upload |
 | `VITE_EXTENSION_ID_CHROMIUM` | app (`app/.env.local`) | The pinned dev id. Set it for a store-built extension |
 | `VITE_ANDROID_APP_URL` | app | The GitHub releases page |
 | `VITE_PARTY_SERVER_URL` | app (`app/.env.local`, Pages env) | None. The Listen Together server; `vite build` fails without it |
@@ -82,3 +82,12 @@ Then open `http://localhost:5173/extension`. It shows "Installed", with the vers
 corepack pnpm --dir web -r typecheck
 corepack pnpm --dir web/app build
 ```
+
+## Mixify branding and extension identity
+
+- The extension is independently identified as **Mixify** (Chromium development ID `ejgdckkackjkfjgedmdeonnkjmkokeef`, Firefox add-on ID `extension@mixify.co.in`). Older BitChord extensions are *not* interchangeable with the Mixify extension.
+- Production website origin defaults to `https://mixify.co.in`; override with `MIXIFY_SITE_ORIGINS` during extension compilation if hosting the web player on a different URL. Include every exact allowed origin. Only use localhost in development builds.
+- Keep `web/extension/dev-key/public-key.txt` and `extension-id.txt` together and unchanged between releases. They identify the unpacked Chromium extension. The Chrome Web Store assigns its own extension ID: set `VITE_EXTENSION_ID_CHROMIUM` in the production web app to that real published ID and rebuild.
+- Use `corepack pnpm --dir web/extension icons` after changing the Mixify SVG icon. Then run `corepack pnpm --dir web/extension package` to generate the versioned `mixify-extension-*.zip` packages and `extension.json` consumed by `/extension`.
+- `MIXIFY_STORE_BUILD=1` excludes localhost and the pinned development key from store submissions. Review host permissions and whether the optional Discord integration is appropriate for the distribution channel.
+- The original BitChord project is GPL-3.0 licensed. Keep attribution, notices and corresponding-source availability when redistributing modified versions.
