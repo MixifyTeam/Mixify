@@ -75,8 +75,6 @@ Prefer listening on a computer? The **[Mixify Web Player](https://music.mixify.c
 - **Listen Together across devices** — Start or join a party using the same code on the Web Player and Mixify for Android.
 - **Music discovery and lyrics** — Explore albums and tracks, with synced lyrics where supported.
 
-<img width="1200" height="630" alt="mixify-web-player-preview" src="https://github.com/user-attachments/assets/47ddd713-2aea-4222-9af5-ee857772f1ad" />
-
 The web player is available at **[music.mixify.co.in](https://music.mixify.co.in/home)**. The extension is currently required for extension-dependent music playback and integrations. Features that depend on third-party services may change.
 
 <h2 align="center">A place for everyone who listens</h2>
