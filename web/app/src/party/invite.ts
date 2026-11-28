@@ -4,7 +4,7 @@
  * web the first is a route of this app (`/invite/:code`).
  */
 
-export const INVITE_ORIGIN = 'https://bitchord.kushagrasingh.in';
+export const INVITE_ORIGIN = 'https://mixify.co.in';
 export const CODE_LENGTH = 6;
 
 /** Letters and digits only, upper case; null unless it's six of them. */
