@@ -59,6 +59,10 @@ Availability on third-party stores may differ from GitHub.
 
 <h2 align="center">Mixify Web Player</h2>
 
+<p align="center">
+  <a href="https://music.mixify.co.in/home"><img src="https://music.mixify.co.in/mixify-preview.jpg?v=3" width="900" alt="Mixify Web Player — Music, together." /></a>
+</p>
+
 Prefer listening on a computer? The **[Mixify Web Player](https://music.mixify.co.in/home)** brings your music library, playlists, albums and synced lyrics to the browser, with the same Mixify feel.
 
 <p align="center">
