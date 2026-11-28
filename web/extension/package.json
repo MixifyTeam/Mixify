@@ -1,5 +1,5 @@
 {
-  "name": "@mixify/extension",
+  "name": "@bitchord/extension",
   "private": true,
   "type": "module",
   "scripts": {
