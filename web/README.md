@@ -35,7 +35,7 @@ Build both targets:
 corepack pnpm --dir web/extension build
 ```
 
-- **Chrome, Edge, Brave:** `chrome://extensions` → Developer mode → *Load unpacked* → `web/extension/.output/chrome-mv3`. The id is always `glfaomlndpmlkbinbaadcjcjgihbebmp`, pinned by the manifest `key` (`extension/dev-key/`), so the site finds it without configuration.
+- **Chrome, Edge, Brave:** `chrome://extensions` → Developer mode → *Load unpacked* → `web/extension/.output/chrome-mv3`. The id is always `ejgdckkackjkfjgedmdeonnkjmkokeef`, pinned by the manifest `key` (`extension/dev-key/`), so the site finds it without configuration.
 - **Firefox:** `about:debugging#/runtime/this-firefox` → *Load Temporary Add-on* → `web/extension/.output/firefox-mv3/manifest.json`.
 
 To offer the extension as a download from the site's Extension page, package it:
@@ -85,7 +85,7 @@ corepack pnpm --dir web/app build
 
 ## Mixify branding and extension identity
 
-- The extension is independently identified as **Mixify** (Chromium development ID `glfaomlndpmlkbinbaadcjcjgihbebmp`, Firefox add-on ID `extension@mixify.co.in`). Older BitChord extensions are *not* interchangeable with the Mixify extension.
+- The extension is independently identified as **Mixify** (Chromium development ID `ejgdckkackjkfjgedmdeonnkjmkokeef`, Firefox add-on ID `extension@mixify.co.in`). Older BitChord extensions are *not* interchangeable with the Mixify extension.
 - Production website origin defaults to `https://mixify.co.in`; override with `MIXIFY_SITE_ORIGINS` during extension compilation if hosting the web player on a different URL. Include every exact allowed origin. Only use localhost in development builds.
 - Keep `web/extension/dev-key/public-key.txt` and `extension-id.txt` together and unchanged between releases. They identify the unpacked Chromium extension. The Chrome Web Store assigns its own extension ID: set `VITE_EXTENSION_ID_CHROMIUM` in the production web app to that real published ID and rebuild.
 - Use `corepack pnpm --dir web/extension icons` after changing the Mixify SVG icon. Then run `corepack pnpm --dir web/extension package` to generate the versioned `mixify-extension-*.zip` packages and `extension.json` consumed by `/extension`.
