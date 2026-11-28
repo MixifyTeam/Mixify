@@ -113,8 +113,9 @@ describe('AutoPlay supplier', () => {
 
 describe('invites', () => {
   it('reads both link shapes and normalises the code', () => {
-    expect(parseInvite('https://mixify.co.in/invite/ab12cd')).toEqual({ code: 'AB12CD', serverUrl: null });
-    // Keep accepting old invite links so previously shared invitations still work.
+    expect(parseInvite('https://mixify.co.in/listen?code=ab12cd&v=107')).toEqual({ code: 'AB12CD', serverUrl: null });
+    expect(parseInvite('https://mixify.co.in/listen?code=AB12CD&server=https%3A%2F%2Fjam.example.com')).toEqual({ code: 'AB12CD', serverUrl: 'https://jam.example.com' });
+    expect(parseInvite('mixify://party/AB12CD')).toEqual({ code: 'AB12CD', serverUrl: null });
     expect(parseInvite('https://bitchord.kushagrasingh.in/invite/ab12cd')).toEqual({ code: 'AB12CD', serverUrl: null });
     expect(parseInvite('bitchord://party/AB12CD?server=jam.example.com')).toEqual({ code: 'AB12CD', serverUrl: 'https://jam.example.com' });
     expect(parseInvite('https://example.com/nope')).toBeNull();
@@ -122,7 +123,7 @@ describe('invites', () => {
   });
 
   it('links to a custom server’s own invite page', () => {
-    expect(inviteUrl('ab12cd', null)).toBe('https://mixify.co.in/invite/AB12CD');
-    expect(inviteUrl('AB12CD', 'https://jam.example.com/')).toBe('https://jam.example.com/invite/AB12CD');
+    expect(inviteUrl('ab12cd', null)).toBe('https://mixify.co.in/listen?code=AB12CD&v=107');
+    expect(inviteUrl('AB12CD', 'https://jam.example.com/')).toBe('https://mixify.co.in/listen?code=AB12CD&v=107&server=https%3A%2F%2Fjam.example.com');
   });
 });

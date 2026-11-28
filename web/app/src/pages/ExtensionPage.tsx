@@ -46,7 +46,7 @@ function downloadsFor(published: PublishedExtension | null): Download[] {
       ],
       updateSteps: [
         `Extract the new zip. It holds ${folder('chrome')}.`,
-        'In chrome://extensions, choose Load unpacked and select that folder. It has the same Mixify extension ID, so it updates your existing Mixify install and keeps its settings.',
+        'In chrome://extensions, choose Load unpacked and select that folder. It has the same ID, so it takes the old one’s place and keeps your settings.',
         'Delete the old folder, then come back to this page: the version above updates on its own.',
       ],
     },

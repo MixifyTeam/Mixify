@@ -1,7 +1,7 @@
 import { Maximize2 } from 'lucide-react';
 import { useState, type ReactNode } from 'react';
 import { useNavigate } from 'react-router';
-import { LogoMark } from '@/components/icons/LogoMark';
+import { PlayerMark } from '@/components/icons/PlayerMark';
 import { ExplicitBadge } from '@/components/music/ExplicitBadge';
 import { VideoSurface } from '@/components/music/VideoSurface';
 import { albumHref, artistHref } from '@/components/music/links';
@@ -108,7 +108,7 @@ export function Lcd() {
   if (!nowPlaying) {
     return (
       <div className="grid h-full place-items-center text-tertiary">
-        <LogoMark size={26} />
+        <PlayerMark size={30} />
       </div>
     );
   }
