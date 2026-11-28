@@ -40,7 +40,7 @@ const inviteCode = 'type-[700_40px/48px] tracking-[0.18em]';
 export default function ListenTogetherPage() {
   const params = useParams();
   const [search] = useSearchParams();
-  const inviteCode = params.code ? cleanCode(params.code) : null;
+  const inviteCode = cleanCode(params.code ?? search.get('code') ?? search.get('room') ?? '');
   const inviteServer = search.get('server');
   const state = useParty();
   const signedIn = useSignedIn();
@@ -145,7 +145,7 @@ function StartOrJoin({ signedIn }: { signedIn: boolean }) {
           />
         </label>
       </section>
-      <p className={settingsUi.footer}>Leave the server empty to use Mixify’s. Anyone joining your party uses the server it’s on.</p>
+      <p className={settingsUi.footer}>Leave the server empty to use the configured default server. Anyone joining your party uses the server it’s on.</p>
     </>
   );
 }

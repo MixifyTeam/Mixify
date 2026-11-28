@@ -198,6 +198,11 @@ export default function SettingsPage() {
             {present ? <LyricSourcesAccess /> : <span className={settingsUi.value}>Needs the extension</span>}
           </div>
         </section>
+        <p className={settingsUi.footer}>
+          <a href="/legal/" className="underline" aria-label="Open-source licences and notices">
+            Open-source licences
+          </a>
+        </p>
       </div>
       {lyrics && (
         <Suspense fallback={null}>

@@ -1,7 +1,7 @@
 import { config } from '@/config';
 
 /**
- * Tells the Mixify server this tab is open, so it can count the web player
+ * Tells the BitChord server this tab is open, so it can count the web player
  * beside the phone and PC apps (`GET /api/stats/live`), as the apps do
  * (Presence.kt). One small POST every few minutes while the tab is open; the
  * server sets the interval in each reply. Closing the tab sends a

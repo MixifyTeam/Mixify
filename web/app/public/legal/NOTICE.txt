@@ -1,0 +1,17 @@
+# Mixify attribution
+
+This local adaptation uses BitChord's web/app and web/shared source from
+https://github.com/kushagrasinghx/BitChord
+Commit: 21356206de5594ca0bdaf4680ca2db68a2287729
+Retrieved and adapted: 2026-11-28
+
+Original copyright and GPL-3.0 notices are retained in LICENSE and source.
+AutoMix component notices and AGPL-3.0 license remain in app/src/playback/automix/.
+Changes: Mixify display branding, About attribution, npm packaging with local source aliases,
+pinned compatible extension ID, existing extension download, runtime configuration.
+No claim is made that the BitChord engine was originally authored for Mixify.
+The Mixify local development extension now has its own ID and protocol channel; the original BitChord extension no longer provides the web bridge.
+
+Listen Together uses the configured party server (in this release: https://listen.mixify.co.in).
+The Android app link now points to MixifyTeam/Mixify releases; verify that an official downloadable build is published.
+Account authentication and optional service permissions remain user-controlled.
