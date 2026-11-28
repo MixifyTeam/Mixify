@@ -4,7 +4,7 @@
 <h1 align="center">Mixify</h1>
  
 <p align="center"><strong>For the songs that stay with you.</strong></p>
-<p align="center">A free, open-source music app for Android.<br />Made with care. Shared with you.</p>
+<p align="center">A free, open-source music app for Android, with a companion web player.<br />Made with care. Shared with you.</p>
 <p align="center">
   <a href="https://github.com/MixifyTeam/Mixify/releases/latest"><img src="https://img.shields.io/github/v/release/MixifyTeam/Mixify?style=for-the-badge&amp;label=release&amp;labelColor=24212B&amp;color=8B769D" height="28" alt="Latest release" /></a>
   &nbsp;
@@ -18,6 +18,8 @@
   <a href="https://github.com/MixifyTeam/Mixify/releases/latest"><strong>Download Mixify</strong></a>
   &nbsp;·&nbsp;
   <a href="https://mixify.co.in/">Explore the website</a>
+  &nbsp;·&nbsp;
+  <a href="https://music.mixify.co.in/home"><strong>Open Web Player</strong></a>
   &nbsp;·&nbsp;
   <a href="https://t.me/MixifyCommunityy">Join the community</a>
 </p>
@@ -54,7 +56,23 @@ More screenshots and the full feature list are on [mixify.co.in](https://mixify.
 [All releases](https://github.com/MixifyTeam/Mixify/releases)
  
 Availability on third-party stores may differ from GitHub.
- 
+
+<h2 align="center">Mixify Web Player</h2>
+
+Prefer listening on a computer? The **[Mixify Web Player](https://music.mixify.co.in/home)** brings your music library, playlists, albums and synced lyrics to the browser, with the same Mixify feel.
+
+<p align="center">
+  <a href="https://music.mixify.co.in/home"><img src="https://img.shields.io/badge/Open-Web_Player-00DDB3?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white&amp;labelColor=24212B" height="28" alt="Open Mixify Web Player" /></a>
+  &nbsp;
+  <a href="https://music.mixify.co.in/extension"><img src="https://img.shields.io/badge/Get-Mixify_Extension-748C85?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white&amp;labelColor=24212B" height="28" alt="Get Mixify Chrome extension" /></a>
+</p>
+
+- **Web playback** — Browse your YouTube Music library and playlists with the Mixify browser extension. The extension must be installed separately; visiting the website does not install it automatically.
+- **Listen Together across devices** — Start or join a party using the same code on the Web Player and Mixify for Android.
+- **Music discovery and lyrics** — Explore albums and tracks, with synced lyrics where supported.
+
+The web player is available at **[music.mixify.co.in](https://music.mixify.co.in/home)**. The extension is currently required for extension-dependent music playback and integrations. Features that depend on third-party services may change.
+
 <h2 align="center">A place for everyone who listens</h2>
  
 Share a favourite, tell us what could feel better, or follow along as Mixify grows.
