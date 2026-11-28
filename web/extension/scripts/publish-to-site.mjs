@@ -19,7 +19,7 @@ const output = fileURLToPath(new URL('../.output/', import.meta.url));
 const target = fileURLToPath(new URL('../../app/public/downloads/', import.meta.url));
 mkdirSync(target, { recursive: true });
 // Each version's zips are named for it; the previous ones go.
-for (const name of readdirSync(target)) if (/^mixify-extension-.*\.zip$/.test(name)) rmSync(join(target, name));
+for (const name of readdirSync(target)) if (/^(?:mixify|bitchord)-extension-.*\.zip$/.test(name)) rmSync(join(target, name));
 
 function filesUnder(dir) {
   return readdirSync(dir).flatMap((name) => {
